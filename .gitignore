@@ -1,0 +1,31 @@
+# Secrets and sensitive data
+*.env
+*.key
+*.crt
+*.pem
+*.gpg
+*.bak
+*.swp
+*.swo
+*.DS_Store
+.secrets/
+.cache/
+.history/
+.vscode/
+.idea/
+
+# System-specific
+*.log
+*.lock
+/tmp
+**/node_modules
+**/__pycache__/
+
+# Ignore personal data
+.ssh/
+.local/share/keyrings/
+.local/share/gnome-keyring/
+.config/discord
+.config/Code/User/workspaceStorage/
+.config/Slack
+.config/obsidian
